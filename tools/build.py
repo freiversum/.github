@@ -4,7 +4,7 @@
 Writes
   assets/header-light.svg, assets/header-dark.svg  constellation + wordmark + motto, text as paths
   assets/icons/<slug>.png                          64 px app icons from the app repositories
-  assets/shots/<slug>.webp                         screenshots, 900x600 (desktop) or 450x900 (phone)
+  assets/shots/<slug>.webp                         screenshots, 900x600 (desktop), 450x900 (phone) or 900x450 (wide)
   assets/mark.svg                                  constellation mark, copied from the brand kit
 
 Sources are the local clones next to this checkout (05_Projekte/apps) and the brand kit
@@ -42,9 +42,10 @@ ICONS = {
     "planetfoss-android": APPS / "planetfoss-android/fastlane/metadata/android/en-US/images/icon.png",
     "hausmusik": APPS / "hausmusik/fastlane/metadata/android/en-US/images/icon.png",
     "commentator": APPS / "commentator/store/play/icon-512.png",
+    "zwindoor": APPS / "zwindoor/watch/store/out/store-icon.png",
 }
 
-# (slug, source, kind, gravity) – kind "desk" = 900x600, "phone" = 450x900
+# (slug, source, kind, gravity) – kind "desk" = 900x600, "phone" = 450x900, "wide" = 900x450
 SHOTS = [
     ("gnomos", APPS / "gnomos/screenshots/gnomos-albums.webp", "desk", "center"),
     ("screenforge", APPS / "screenforge/docs/screenshots/main-window.png", "desk", "center"),
@@ -52,6 +53,7 @@ SHOTS = [
     ("pulsgeber", APPS / "pulsgeber/docs/screenshots/quick-settings.webp", "desk", "center"),
     ("planetfoss-android", APPS / "planetfoss-android/docs/screenshots/radar.webp", "phone", "north"),
     ("hausmusik", APPS / "hausmusik/fastlane/metadata/android/en-US/images/phoneScreenshots/1_stage.png", "phone", "north"),
+    ("zwindoor", APPS / "zwindoor/docs/screenshots/zwindoor-hero.png", "wide", "center"),
 ]
 # Commentator has only German screenshots; take the phone from the English demo video.
 COMMENTATOR_VIDEO = ROOT / "media/app-demo-video/videos/commentator-0.3-en/demo_raw.mp4"
@@ -142,7 +144,7 @@ def shots() -> None:
     out = ASSETS / "shots"
     out.mkdir(parents=True, exist_ok=True)
     for slug, src, kind, grav in SHOTS:
-        size = "900x600" if kind == "desk" else "450x900"
+        size = {"desk": "900x600", "phone": "450x900", "wide": "900x450"}[kind]
         run("magick", str(src), "-resize", f"{size}^", "-gravity", grav, "-extent", size,
             "-strip", "-quality", "82", str(out / f"{slug}.webp"))
     with tempfile.TemporaryDirectory() as tmp:

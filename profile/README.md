@@ -3,13 +3,13 @@
   <img src="../assets/header-light.svg" width="542" alt="freiversum – Linux, open source and tech you run yourself">
 </picture>
 
-Open source apps for the Linux desktop and Android, written and maintained by Christoph Langner ([@linuxundich](https://github.com/linuxundich)). Small tools that do one job well, built with the platform's own toolkit.
+Open source apps for the Linux desktop, Android and Garmin watches, written and maintained by Christoph Langner ([@linuxundich](https://github.com/linuxundich)). Small tools that do one job well, built with the platform's own toolkit.
 
 [Website](https://freiversum.de/en/) &nbsp;·&nbsp; [Blog](https://linuxundich.de/en/) &nbsp;·&nbsp; [Mastodon](https://social.anoxinon.de/@linuxundich) &nbsp;·&nbsp; [All repositories](https://github.com/orgs/freiversum/repositories)
 
 <table>
   <tr>
-    <td width="25%" valign="top"><b>Native</b><br><sub>GTK 4 and libadwaita on GNOME, Kirigami on Plasma, Jetpack Compose on Android</sub></td>
+    <td width="25%" valign="top"><b>Native</b><br><sub>GTK 4 and libadwaita on GNOME, Kirigami on Plasma, Jetpack Compose on Android, Connect IQ on Garmin</sub></td>
     <td width="25%" valign="top"><b>Local first</b><br><sub>Works on your network and your machine, no account where none is needed</sub></td>
     <td width="25%" valign="top"><b>No tracking</b><br><sub>No analytics and no ads in the apps</sub></td>
     <td width="25%" valign="top"><b>Free software</b><br><sub>Open licenses, mostly GPL-3.0, English and German, developed in the open</sub></td>
@@ -53,6 +53,14 @@ Open source apps for the Linux desktop and Android, written and maintained by Ch
 | <img src="../assets/icons/planetfoss-android.png" width="32" alt=""> | [**PlanetFOSS**](https://github.com/freiversum/planetfoss-android)<br><sub>Kotlin · Compose</sub> | Linux and open source news reader | [APK](https://github.com/freiversum/planetfoss-android/releases/latest) · [Google Play (test)](https://play.google.com/apps/testing/net.planetfoss.app) |
 | <img src="../assets/icons/hausmusik.png" width="32" alt=""> | [**Hausmusik**](https://github.com/freiversum/hausmusik)<br><sub>Kotlin · Compose</sub> | Local Sonos controller, also for S1 players | [APK](https://github.com/freiversum/hausmusik/releases/latest) |
 | <img src="../assets/icons/commentator.png" width="32" alt=""> | [**Commentator**](https://github.com/freiversum/commentator)<br><sub>Kotlin · WordPress plugin</sub> | Moderate WordPress comments from your phone | [APK](https://github.com/freiversum/commentator/releases/latest) |
+
+## Garmin
+
+<p align="center"><a href="https://github.com/freiversum/zwindoor"><img src="../assets/shots/zwindoor.webp" width="600" alt="ZWindoor on a Garmin AMOLED and a MIP watch: turn left, turn right, Ride On and power-up"></a></p>
+
+| | Project | What it does | Get it |
+|---|---|---|---|
+| <img src="../assets/icons/zwindoor.png" width="32" alt=""> | [**ZWindoor**](https://github.com/freiversum/zwindoor)<br><sub>Monkey C · Python</sub> | Garmin watch or Edge bike computer as a remote for Zwift, with a bridge for Windows and Linux | [Windows bridge](https://github.com/freiversum/zwindoor/releases/latest) · [Watch app (source)](https://github.com/freiversum/zwindoor/tree/main/watch) · in [Tretlager](https://github.com/freiversum/tretlager) on Linux |
 
 <details>
 <summary><b>Libraries and building blocks</b></summary>
