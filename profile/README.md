@@ -39,9 +39,9 @@ Open source apps for the Linux desktop and Android, written and maintained by Ch
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top"><a href="https://github.com/freiversum/planetfoss-android"><img src="../assets/shots/planetfoss-android.webp" width="150" alt="PlanetFOSS radar tab"></a><br><sub>PlanetFOSS</sub></td>
-    <td width="33%" align="center" valign="top"><a href="https://github.com/freiversum/hausmusik"><img src="../assets/shots/hausmusik.webp" width="150" alt="Hausmusik now playing"></a><br><sub>Hausmusik</sub></td>
-    <td width="33%" align="center" valign="top"><a href="https://github.com/freiversum/commentator"><img src="../assets/shots/commentator.webp" width="150" alt="Commentator comment inbox"></a><br><sub>Commentator</sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://github.com/freiversum/planetfoss-android"><img src="../assets/shots/planetfoss-android.webp" width="190" alt="PlanetFOSS radar tab"></a><br><sub>PlanetFOSS</sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://github.com/freiversum/hausmusik"><img src="../assets/shots/hausmusik.webp" width="190" alt="Hausmusik now playing"></a><br><sub>Hausmusik</sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://github.com/freiversum/commentator"><img src="../assets/shots/commentator.webp" width="190" alt="Commentator comment inbox"></a><br><sub>Commentator</sub></td>
   </tr>
 </table>
 
