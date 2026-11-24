@@ -18,11 +18,14 @@ Open source apps for the Linux desktop and Android, written and maintained by Ch
 
 ## Linux desktop
 
-<table>
+<table width="100%">
   <tr>
-    <td width="33%" align="center" valign="top"><a href="https://github.com/freiversum/gnomos"><img src="../assets/shots/gnomos.webp" alt="Gnomos showing an album grid"></a><br><sub>Gnomos</sub></td>
-    <td width="33%" align="center" valign="top"><a href="https://github.com/freiversum/ScreenForge"><img src="../assets/shots/screenforge.webp" alt="ScreenForge main window"></a><br><sub>ScreenForge</sub></td>
-    <td width="33%" align="center" valign="top"><a href="https://github.com/freiversum/tretlager"><img src="../assets/shots/tretlager.webp" alt="Tretlager during a ride"></a><br><sub>Tretlager</sub></td>
+    <td width="50%" align="center" valign="top"><a href="https://github.com/freiversum/gnomos"><img src="../assets/shots/gnomos.webp" alt="Gnomos showing an album grid"></a><br><sub>Gnomos</sub></td>
+    <td width="50%" align="center" valign="top"><a href="https://github.com/freiversum/ScreenForge"><img src="../assets/shots/screenforge.webp" alt="ScreenForge main window"></a><br><sub>ScreenForge</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top"><a href="https://github.com/freiversum/tretlager"><img src="../assets/shots/tretlager.webp" alt="Tretlager, ready to ride with two sensors connected"></a><br><sub>Tretlager</sub></td>
+    <td width="50%" align="center" valign="top"><a href="https://github.com/freiversum/pulsgeber"><img src="../assets/shots/pulsgeber.webp" alt="Pulsgeber in the GNOME Quick Settings"></a><br><sub>Pulsgeber</sub></td>
   </tr>
 </table>
 
@@ -37,7 +40,7 @@ Open source apps for the Linux desktop and Android, written and maintained by Ch
 
 ## Android
 
-<table>
+<table width="100%">
   <tr>
     <td width="33%" align="center" valign="top"><a href="https://github.com/freiversum/planetfoss-android"><img src="../assets/shots/planetfoss-android.webp" width="190" alt="PlanetFOSS radar tab"></a><br><sub>PlanetFOSS</sub></td>
     <td width="33%" align="center" valign="top"><a href="https://github.com/freiversum/hausmusik"><img src="../assets/shots/hausmusik.webp" width="190" alt="Hausmusik now playing"></a><br><sub>Hausmusik</sub></td>

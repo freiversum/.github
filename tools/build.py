@@ -48,7 +48,8 @@ ICONS = {
 SHOTS = [
     ("gnomos", APPS / "gnomos/screenshots/gnomos-albums.webp", "desk", "center"),
     ("screenforge", APPS / "screenforge/docs/screenshots/main-window.png", "desk", "center"),
-    ("tretlager", APPS / "tretlager/docs/screenshots/tretlager-ride.webp", "desk", "center"),
+    ("tretlager", APPS / "tretlager/docs/screenshots/tretlager-ready.webp", "desk", "center"),
+    ("pulsgeber", APPS / "pulsgeber/docs/screenshots/quick-settings.webp", "desk", "center"),
     ("planetfoss-android", APPS / "planetfoss-android/docs/screenshots/radar.webp", "phone", "north"),
     ("hausmusik", APPS / "hausmusik/fastlane/metadata/android/en-US/images/phoneScreenshots/1_stage.png", "phone", "north"),
 ]
