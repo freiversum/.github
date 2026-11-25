@@ -56,11 +56,11 @@ Open source apps for the Linux desktop, Android and Garmin watches, written and 
 
 ## Garmin
 
-<p align="center"><a href="https://github.com/freiversum/zwindoor"><img src="../assets/shots/zwindoor.webp" width="600" alt="ZWindoor on a Garmin AMOLED and a MIP watch: turn left, turn right, Ride On and power-up"></a></p>
+<p align="center"><a href="https://github.com/freiversum/wristpilot"><img src="../assets/shots/wristpilot.webp" width="600" alt="Wristpilot on a Garmin AMOLED and a MIP watch: turn left, turn right, Ride On and power-up"></a></p>
 
 | | Project | What it does | Get it |
 |---|---|---|---|
-| <img src="../assets/icons/zwindoor.png" width="32" alt=""> | [**ZWindoor**](https://github.com/freiversum/zwindoor)<br><sub>Monkey C · Python</sub> | Garmin watch or Edge bike computer as a remote for Zwift, with a bridge for Windows and Linux | [Windows bridge](https://github.com/freiversum/zwindoor/releases/latest) · [Watch app (source)](https://github.com/freiversum/zwindoor/tree/main/watch) · in [Tretlager](https://github.com/freiversum/tretlager) on Linux |
+| <img src="../assets/icons/wristpilot.png" width="32" alt=""> | [**Wristpilot**](https://github.com/freiversum/wristpilot)<br><sub>Monkey C · Python</sub> | Garmin watch or Edge bike computer as a remote for Zwift: turns, Ride On, power-up and steering, with a bridge for Windows and Linux | [Windows bridge](https://github.com/freiversum/wristpilot/releases/latest) · [Watch app (source)](https://github.com/freiversum/wristpilot/tree/main/watch) · in [Tretlager](https://github.com/freiversum/tretlager) on Linux |
 
 <details>
 <summary><b>Libraries and building blocks</b></summary>

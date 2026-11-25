@@ -42,7 +42,7 @@ ICONS = {
     "planetfoss-android": APPS / "planetfoss-android/fastlane/metadata/android/en-US/images/icon.png",
     "hausmusik": APPS / "hausmusik/fastlane/metadata/android/en-US/images/icon.png",
     "commentator": APPS / "commentator/store/play/icon-512.png",
-    "zwindoor": APPS / "zwindoor/watch/store/out/store-icon.png",
+    "wristpilot": APPS / "wristpilot/watch/store/out/store-icon.png",
 }
 
 # (slug, source, kind, gravity) – kind "desk" = 900x600, "phone" = 450x900, "wide" = 900x450
@@ -53,7 +53,7 @@ SHOTS = [
     ("pulsgeber", APPS / "pulsgeber/docs/screenshots/quick-settings.webp", "desk", "center"),
     ("planetfoss-android", APPS / "planetfoss-android/docs/screenshots/radar.webp", "phone", "north"),
     ("hausmusik", APPS / "hausmusik/fastlane/metadata/android/en-US/images/phoneScreenshots/1_stage.png", "phone", "north"),
-    ("zwindoor", APPS / "zwindoor/docs/screenshots/zwindoor-hero.png", "wide", "center"),
+    ("wristpilot", APPS / "wristpilot/docs/screenshots/wristpilot-hero.png", "wide", "center"),
 ]
 # Commentator has only German screenshots; take the phone from the English demo video.
 COMMENTATOR_VIDEO = ROOT / "media/app-demo-video/videos/commentator-0.3-en/demo_raw.mp4"
